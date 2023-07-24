@@ -1,0 +1,51 @@
+/* universal selector
+* {
+    font-family: monospace;
+} */
+
+html {
+    font-size: 22px;
+}
+
+/* element selectors  least specific*/
+body {
+    font-size: 22px;
+}
+
+main {
+    font-family: monospace;
+}
+
+p {
+    /* color: purple!important; */
+    color: purple;
+}
+
+/* this color will be applied  css is read top to bottom*/
+p {
+    color: red;
+}
+
+h1, h2 {
+    color: blue;
+}
+
+/* p span {
+    text-transform: uppercase;
+    background-color: gold;
+} */
+
+/* class selectors  more specific*/
+
+.highlight {
+    text-transform: uppercase;
+    background-color: gold;
+}
+.gray {
+    color: gray;
+}
+
+/* id selector  NB// rarely use this selector*/
+#second {
+    font-style: italic;
+}

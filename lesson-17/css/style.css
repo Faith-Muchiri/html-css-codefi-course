@@ -57,7 +57,7 @@ footer {
 /*  ||small */
 @media screen and (min-width: 576px) {
     body {
-        border-color: green;
+        background-color: green;
         background-image: radial-gradient(whitesmoke, green);
     }
     nav {
@@ -68,7 +68,7 @@ footer {
 /*  ||medium */
 @media screen and (min-width: 768px) {
     body {
-        border-color: gold;
+        background-color: gold;
         background-image: radial-gradient(whitesmoke, gold);
     }
 }
@@ -76,7 +76,7 @@ footer {
 /*  ||large */
 @media screen and (min-width: 992px) {
     body {
-        border-color: firebrick;
+        background-color: firebrick;
         background-image: radial-gradient(whitesmoke, firebrick);
     }
 }
@@ -84,15 +84,15 @@ footer {
 /*  ||XL*/
 @media screen and (min-width: 1200px) {
     body {
-        border-color: rebeccapurple;
+        background-color: rebeccapurple;
         background-image: radial-gradient(whitesmoke, rebeccapurple);
     }
 }
 
-/*  ||modile device landscape*/
+/*  ||mobile device landscape*/
 @media screen and (max-height: 425px) and (min-aspect-ratio: 7/4) {
     body {
-        border-color: dodgerblue;
+        background-color: dodgerblue;
         background-image: radial-gradient(whitesmoke, dodgerblue);
     }
 
